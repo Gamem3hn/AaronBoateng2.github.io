@@ -4444,6 +4444,7 @@ input, select, textarea {
 			list-style: none;
 			margin: 0;
 			padding-left: 0;
+			display:none;
 		}
 
 			#copyright ul li {
@@ -4452,6 +4453,7 @@ input, select, textarea {
 				line-height: 1;
 				margin-left: 1rem;
 				padding-left: 1rem;
+				display:none;
 			}
 
 				#copyright ul li:first-child {
@@ -4686,4 +4688,9 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+		
+
 	}
+#copyright ul {
+	display:none;
+}
